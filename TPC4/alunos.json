@@ -1,0 +1,1002 @@
+{
+    "entry 0": {
+        "Numero": "100",
+        "Nome": "Gerrie",
+        "Curso": "MIEI",
+        "Notas": [
+            "11",
+            "10",
+            "14"
+        ]
+    },
+    "entry 1": {
+        "Numero": "101",
+        "Nome": "Calla",
+        "Curso": "LCC",
+        "Notas": [
+            "2",
+            "9",
+            "1"
+        ]
+    },
+    "entry 2": {
+        "Numero": "102",
+        "Nome": "Mariann",
+        "Curso": "LCC",
+        "Notas": [
+            "16",
+            "12",
+            "7"
+        ]
+    },
+    "entry 3": {
+        "Numero": "103",
+        "Nome": "Celisse",
+        "Curso": "MIEI",
+        "Notas": [
+            "20",
+            "2",
+            "16"
+        ]
+    },
+    "entry 4": {
+        "Numero": "104",
+        "Nome": "Edith",
+        "Curso": "MIEI",
+        "Notas": [
+            "6",
+            "3",
+            "10"
+        ]
+    },
+    "entry 5": {
+        "Numero": "105",
+        "Nome": "Tina",
+        "Curso": "MIEI",
+        "Notas": [
+            "5",
+            "20",
+            "5"
+        ]
+    },
+    "entry 6": {
+        "Numero": "106",
+        "Nome": "Rubie",
+        "Curso": "MIEI",
+        "Notas": [
+            "15",
+            "13",
+            "10"
+        ]
+    },
+    "entry 7": {
+        "Numero": "107",
+        "Nome": "Fina",
+        "Curso": "LEI",
+        "Notas": [
+            "16",
+            "20",
+            "13"
+        ]
+    },
+    "entry 8": {
+        "Numero": "108",
+        "Nome": "Konstance",
+        "Curso": "LCC",
+        "Notas": [
+            "3",
+            "13",
+            "10"
+        ]
+    },
+    "entry 9": {
+        "Numero": "109",
+        "Nome": "Mathilda",
+        "Curso": "LCC",
+        "Notas": [
+            "9",
+            "7",
+            "11"
+        ]
+    },
+    "entry 10": {
+        "Numero": "110",
+        "Nome": "Elora",
+        "Curso": "MIEI",
+        "Notas": [
+            "20",
+            "1",
+            "6"
+        ]
+    },
+    "entry 11": {
+        "Numero": "111",
+        "Nome": "Joelly",
+        "Curso": "LCC",
+        "Notas": [
+            "16",
+            "3",
+            "13"
+        ]
+    },
+    "entry 12": {
+        "Numero": "112",
+        "Nome": "Cissiee",
+        "Curso": "LCC",
+        "Notas": [
+            "13",
+            "7",
+            "15"
+        ]
+    },
+    "entry 13": {
+        "Numero": "113",
+        "Nome": "Kristina",
+        "Curso": "LEI",
+        "Notas": [
+            "19",
+            "11",
+            "11"
+        ]
+    },
+    "entry 14": {
+        "Numero": "114",
+        "Nome": "Nikki",
+        "Curso": "LCC",
+        "Notas": [
+            "1",
+            "18",
+            "19"
+        ]
+    },
+    "entry 15": {
+        "Numero": "115",
+        "Nome": "Rosabelle",
+        "Curso": "LCC",
+        "Notas": [
+            "18",
+            "9",
+            "18"
+        ]
+    },
+    "entry 16": {
+        "Numero": "116",
+        "Nome": "Jacquetta",
+        "Curso": "MIEI",
+        "Notas": [
+            "2",
+            "11",
+            "20"
+        ]
+    },
+    "entry 17": {
+        "Numero": "117",
+        "Nome": "Sara-Ann",
+        "Curso": "LCC",
+        "Notas": [
+            "12",
+            "15",
+            "1"
+        ]
+    },
+    "entry 18": {
+        "Numero": "118",
+        "Nome": "Ricky",
+        "Curso": "LCC",
+        "Notas": [
+            "10",
+            "14",
+            "20"
+        ]
+    },
+    "entry 19": {
+        "Numero": "119",
+        "Nome": "Marcelline",
+        "Curso": "LEI",
+        "Notas": [
+            "7",
+            "8",
+            "20"
+        ]
+    },
+    "entry 20": {
+        "Numero": "120",
+        "Nome": "Randa",
+        "Curso": "LCC",
+        "Notas": [
+            "9",
+            "19",
+            "2"
+        ]
+    },
+    "entry 21": {
+        "Numero": "121",
+        "Nome": "Queenie",
+        "Curso": "LCC",
+        "Notas": [
+            "8",
+            "14",
+            "5"
+        ]
+    },
+    "entry 22": {
+        "Numero": "122",
+        "Nome": "Xylina",
+        "Curso": "LEI",
+        "Notas": [
+            "10",
+            "9",
+            "14"
+        ]
+    },
+    "entry 23": {
+        "Numero": "123",
+        "Nome": "Kate",
+        "Curso": "LEI",
+        "Notas": [
+            "20",
+            "12",
+            "9"
+        ]
+    },
+    "entry 24": {
+        "Numero": "124",
+        "Nome": "Talya",
+        "Curso": "LCC",
+        "Notas": [
+            "5",
+            "7",
+            "4"
+        ]
+    },
+    "entry 25": {
+        "Numero": "125",
+        "Nome": "Ardenia",
+        "Curso": "LCC",
+        "Notas": [
+            "13",
+            "12",
+            "18"
+        ]
+    },
+    "entry 26": {
+        "Numero": "126",
+        "Nome": "Helsa",
+        "Curso": "MIEI",
+        "Notas": [
+            "1",
+            "2",
+            "20"
+        ]
+    },
+    "entry 27": {
+        "Numero": "127",
+        "Nome": "Carree",
+        "Curso": "LEI",
+        "Notas": [
+            "2",
+            "18",
+            "11"
+        ]
+    },
+    "entry 28": {
+        "Numero": "128",
+        "Nome": "Ayn",
+        "Curso": "MIEI",
+        "Notas": [
+            "9",
+            "19",
+            "1"
+        ]
+    },
+    "entry 29": {
+        "Numero": "129",
+        "Nome": "Amelia",
+        "Curso": "LEI",
+        "Notas": [
+            "14",
+            "18",
+            "1"
+        ]
+    },
+    "entry 30": {
+        "Numero": "130",
+        "Nome": "Constance",
+        "Curso": "MIEI",
+        "Notas": [
+            "16",
+            "4",
+            "7"
+        ]
+    },
+    "entry 31": {
+        "Numero": "131",
+        "Nome": "Roz",
+        "Curso": "LCC",
+        "Notas": [
+            "17",
+            "13",
+            "7"
+        ]
+    },
+    "entry 32": {
+        "Numero": "132",
+        "Nome": "Diena",
+        "Curso": "MIEI",
+        "Notas": [
+            "2",
+            "6",
+            "6"
+        ]
+    },
+    "entry 33": {
+        "Numero": "133",
+        "Nome": "Miquela",
+        "Curso": "MIEI",
+        "Notas": [
+            "19",
+            "7",
+            "13"
+        ]
+    },
+    "entry 34": {
+        "Numero": "134",
+        "Nome": "Belinda",
+        "Curso": "LEI",
+        "Notas": [
+            "5",
+            "15",
+            "12"
+        ]
+    },
+    "entry 35": {
+        "Numero": "135",
+        "Nome": "Shauna",
+        "Curso": "MIEI",
+        "Notas": [
+            "16",
+            "12",
+            "12"
+        ]
+    },
+    "entry 36": {
+        "Numero": "136",
+        "Nome": "Sybille",
+        "Curso": "LEI",
+        "Notas": [
+            "1",
+            "7",
+            "5"
+        ]
+    },
+    "entry 37": {
+        "Numero": "137",
+        "Nome": "Althea",
+        "Curso": "LCC",
+        "Notas": [
+            "1",
+            "16",
+            "19"
+        ]
+    },
+    "entry 38": {
+        "Numero": "138",
+        "Nome": "Sarette",
+        "Curso": "MIEI",
+        "Notas": [
+            "4",
+            "2",
+            "13"
+        ]
+    },
+    "entry 39": {
+        "Numero": "139",
+        "Nome": "Fredericka",
+        "Curso": "LCC",
+        "Notas": [
+            "12",
+            "8",
+            "1"
+        ]
+    },
+    "entry 40": {
+        "Numero": "140",
+        "Nome": "Mary",
+        "Curso": "LEI",
+        "Notas": [
+            "19",
+            "1",
+            "20"
+        ]
+    },
+    "entry 41": {
+        "Numero": "141",
+        "Nome": "Nollie",
+        "Curso": "LCC",
+        "Notas": [
+            "11",
+            "11",
+            "19"
+        ]
+    },
+    "entry 42": {
+        "Numero": "142",
+        "Nome": "Kylynn",
+        "Curso": "MIEI",
+        "Notas": [
+            "14",
+            "20",
+            "12"
+        ]
+    },
+    "entry 43": {
+        "Numero": "143",
+        "Nome": "Winifred",
+        "Curso": "LCC",
+        "Notas": [
+            "4",
+            "15",
+            "13"
+        ]
+    },
+    "entry 44": {
+        "Numero": "144",
+        "Nome": "Kara-Lynn",
+        "Curso": "LEI",
+        "Notas": [
+            "6",
+            "6",
+            "20"
+        ]
+    },
+    "entry 45": {
+        "Numero": "145",
+        "Nome": "Rhoda",
+        "Curso": "LEI",
+        "Notas": [
+            "5",
+            "16",
+            "9"
+        ]
+    },
+    "entry 46": {
+        "Numero": "146",
+        "Nome": "Lexine",
+        "Curso": "LCC",
+        "Notas": [
+            "5",
+            "10",
+            "15"
+        ]
+    },
+    "entry 47": {
+        "Numero": "147",
+        "Nome": "Ottilie",
+        "Curso": "LEI",
+        "Notas": [
+            "20",
+            "17",
+            "19"
+        ]
+    },
+    "entry 48": {
+        "Numero": "148",
+        "Nome": "Eolanda",
+        "Curso": "LCC",
+        "Notas": [
+            "17",
+            "7",
+            "7"
+        ]
+    },
+    "entry 49": {
+        "Numero": "149",
+        "Nome": "Ashlee",
+        "Curso": "MIEI",
+        "Notas": [
+            "20",
+            "7",
+            "17"
+        ]
+    },
+    "entry 50": {
+        "Numero": "150",
+        "Nome": "Emylee",
+        "Curso": "LEI",
+        "Notas": [
+            "15",
+            "17",
+            "13"
+        ]
+    },
+    "entry 51": {
+        "Numero": "151",
+        "Nome": "Hollie",
+        "Curso": "MIEI",
+        "Notas": [
+            "11",
+            "8",
+            "9"
+        ]
+    },
+    "entry 52": {
+        "Numero": "152",
+        "Nome": "Merry",
+        "Curso": "MIEI",
+        "Notas": [
+            "6",
+            "19",
+            "2"
+        ]
+    },
+    "entry 53": {
+        "Numero": "153",
+        "Nome": "Benita",
+        "Curso": "MIEI",
+        "Notas": [
+            "3",
+            "18",
+            "17"
+        ]
+    },
+    "entry 54": {
+        "Numero": "154",
+        "Nome": "Monika",
+        "Curso": "MIEI",
+        "Notas": [
+            "3",
+            "3",
+            "11"
+        ]
+    },
+    "entry 55": {
+        "Numero": "155",
+        "Nome": "Dale",
+        "Curso": "LCC",
+        "Notas": [
+            "19",
+            "15",
+            "17"
+        ]
+    },
+    "entry 56": {
+        "Numero": "156",
+        "Nome": "Britte",
+        "Curso": "LEI",
+        "Notas": [
+            "13",
+            "5",
+            "16"
+        ]
+    },
+    "entry 57": {
+        "Numero": "157",
+        "Nome": "Lusa",
+        "Curso": "LEI",
+        "Notas": [
+            "20",
+            "10",
+            "18"
+        ]
+    },
+    "entry 58": {
+        "Numero": "158",
+        "Nome": "Anestassia",
+        "Curso": "LCC",
+        "Notas": [
+            "13",
+            "15",
+            "18"
+        ]
+    },
+    "entry 59": {
+        "Numero": "159",
+        "Nome": "Chandra",
+        "Curso": "LCC",
+        "Notas": [
+            "1",
+            "5",
+            "14"
+        ]
+    },
+    "entry 60": {
+        "Numero": "160",
+        "Nome": "Inga",
+        "Curso": "MIEI",
+        "Notas": [
+            "5",
+            "17",
+            "4"
+        ]
+    },
+    "entry 61": {
+        "Numero": "161",
+        "Nome": "Elka",
+        "Curso": "LCC",
+        "Notas": [
+            "10",
+            "20",
+            "8"
+        ]
+    },
+    "entry 62": {
+        "Numero": "162",
+        "Nome": "Cherilyn",
+        "Curso": "LEI",
+        "Notas": [
+            "20",
+            "7",
+            "3"
+        ]
+    },
+    "entry 63": {
+        "Numero": "163",
+        "Nome": "Jordan",
+        "Curso": "MIEI",
+        "Notas": [
+            "1",
+            "15",
+            "10"
+        ]
+    },
+    "entry 64": {
+        "Numero": "164",
+        "Nome": "Sonni",
+        "Curso": "LEI",
+        "Notas": [
+            "17",
+            "12",
+            "2"
+        ]
+    },
+    "entry 65": {
+        "Numero": "165",
+        "Nome": "Libbie",
+        "Curso": "MIEI",
+        "Notas": [
+            "3",
+            "9",
+            "2"
+        ]
+    },
+    "entry 66": {
+        "Numero": "166",
+        "Nome": "Carmencita",
+        "Curso": "LEI",
+        "Notas": [
+            "8",
+            "13",
+            "6"
+        ]
+    },
+    "entry 67": {
+        "Numero": "167",
+        "Nome": "Viviene",
+        "Curso": "LEI",
+        "Notas": [
+            "17",
+            "9",
+            "7"
+        ]
+    },
+    "entry 68": {
+        "Numero": "168",
+        "Nome": "Myriam",
+        "Curso": "LEI",
+        "Notas": [
+            "10",
+            "7",
+            "17"
+        ]
+    },
+    "entry 69": {
+        "Numero": "169",
+        "Nome": "Gaylene",
+        "Curso": "MIEI",
+        "Notas": [
+            "2",
+            "10",
+            "3"
+        ]
+    },
+    "entry 70": {
+        "Numero": "170",
+        "Nome": "Tarra",
+        "Curso": "MIEI",
+        "Notas": [
+            "2",
+            "17",
+            "15"
+        ]
+    },
+    "entry 71": {
+        "Numero": "171",
+        "Nome": "Annabela",
+        "Curso": "LCC",
+        "Notas": [
+            "18",
+            "6",
+            "16"
+        ]
+    },
+    "entry 72": {
+        "Numero": "172",
+        "Nome": "Allis",
+        "Curso": "LEI",
+        "Notas": [
+            "7",
+            "14",
+            "19"
+        ]
+    },
+    "entry 73": {
+        "Numero": "173",
+        "Nome": "Stevana",
+        "Curso": "LCC",
+        "Notas": [
+            "1",
+            "13",
+            "14"
+        ]
+    },
+    "entry 74": {
+        "Numero": "174",
+        "Nome": "Cordi",
+        "Curso": "LEI",
+        "Notas": [
+            "12",
+            "6",
+            "14"
+        ]
+    },
+    "entry 75": {
+        "Numero": "175",
+        "Nome": "Clo",
+        "Curso": "MIEI",
+        "Notas": [
+            "1",
+            "8",
+            "12"
+        ]
+    },
+    "entry 76": {
+        "Numero": "176",
+        "Nome": "Fidelia",
+        "Curso": "LEI",
+        "Notas": [
+            "17",
+            "16",
+            "14"
+        ]
+    },
+    "entry 77": {
+        "Numero": "177",
+        "Nome": "Grier",
+        "Curso": "LCC",
+        "Notas": [
+            "16",
+            "12",
+            "19"
+        ]
+    },
+    "entry 78": {
+        "Numero": "178",
+        "Nome": "Jennica",
+        "Curso": "LEI",
+        "Notas": [
+            "16",
+            "11",
+            "19"
+        ]
+    },
+    "entry 79": {
+        "Numero": "179",
+        "Nome": "Michaelina",
+        "Curso": "MIEI",
+        "Notas": [
+            "2",
+            "2",
+            "1"
+        ]
+    },
+    "entry 80": {
+        "Numero": "180",
+        "Nome": "Cordi",
+        "Curso": "MIEI",
+        "Notas": [
+            "15",
+            "1",
+            "8"
+        ]
+    },
+    "entry 81": {
+        "Numero": "181",
+        "Nome": "Veda",
+        "Curso": "MIEI",
+        "Notas": [
+            "10",
+            "10",
+            "14"
+        ]
+    },
+    "entry 82": {
+        "Numero": "182",
+        "Nome": "Gabriellia",
+        "Curso": "LCC",
+        "Notas": [
+            "19",
+            "11",
+            "13"
+        ]
+    },
+    "entry 83": {
+        "Numero": "183",
+        "Nome": "Hayley",
+        "Curso": "LCC",
+        "Notas": [
+            "2",
+            "11",
+            "17"
+        ]
+    },
+    "entry 84": {
+        "Numero": "184",
+        "Nome": "Odessa",
+        "Curso": "LCC",
+        "Notas": [
+            "3",
+            "6",
+            "6"
+        ]
+    },
+    "entry 85": {
+        "Numero": "185",
+        "Nome": "Gretal",
+        "Curso": "LCC",
+        "Notas": [
+            "2",
+            "14",
+            "16"
+        ]
+    },
+    "entry 86": {
+        "Numero": "186",
+        "Nome": "Elvira",
+        "Curso": "LCC",
+        "Notas": [
+            "6",
+            "12",
+            "16"
+        ]
+    },
+    "entry 87": {
+        "Numero": "187",
+        "Nome": "Melanie",
+        "Curso": "LEI",
+        "Notas": [
+            "11",
+            "7",
+            "10"
+        ]
+    },
+    "entry 88": {
+        "Numero": "188",
+        "Nome": "Melina",
+        "Curso": "MIEI",
+        "Notas": [
+            "12",
+            "17",
+            "10"
+        ]
+    },
+    "entry 89": {
+        "Numero": "189",
+        "Nome": "Lorie",
+        "Curso": "LCC",
+        "Notas": [
+            "11",
+            "10",
+            "19"
+        ]
+    },
+    "entry 90": {
+        "Numero": "190",
+        "Nome": "Vevay",
+        "Curso": "LEI",
+        "Notas": [
+            "17",
+            "20",
+            "7"
+        ]
+    },
+    "entry 91": {
+        "Numero": "191",
+        "Nome": "Violet",
+        "Curso": "LEI",
+        "Notas": [
+            "17",
+            "4",
+            "18"
+        ]
+    },
+    "entry 92": {
+        "Numero": "192",
+        "Nome": "Marnia",
+        "Curso": "LCC",
+        "Notas": [
+            "6",
+            "11",
+            "8"
+        ]
+    },
+    "entry 93": {
+        "Numero": "193",
+        "Nome": "Jackie",
+        "Curso": "LCC",
+        "Notas": [
+            "20",
+            "9",
+            "14"
+        ]
+    },
+    "entry 94": {
+        "Numero": "194",
+        "Nome": "Deane",
+        "Curso": "LCC",
+        "Notas": [
+            "5",
+            "8",
+            "6"
+        ]
+    },
+    "entry 95": {
+        "Numero": "195",
+        "Nome": "Rivalee",
+        "Curso": "MIEI",
+        "Notas": [
+            "4",
+            "4",
+            "11"
+        ]
+    },
+    "entry 96": {
+        "Numero": "196",
+        "Nome": "Vevay",
+        "Curso": "LCC",
+        "Notas": [
+            "20",
+            "15",
+            "2"
+        ]
+    },
+    "entry 97": {
+        "Numero": "197",
+        "Nome": "Mariann",
+        "Curso": "MIEI",
+        "Notas": [
+            "8",
+            "7",
+            "7"
+        ]
+    },
+    "entry 98": {
+        "Numero": "198",
+        "Nome": "Isa",
+        "Curso": "MIEI",
+        "Notas": [
+            "4",
+            "18",
+            "8"
+        ]
+    },
+    "entry 99": {
+        "Numero": "199",
+        "Nome": "Hollie",
+        "Curso": "LEI",
+        "Notas": [
+            "2",
+            "6",
+            "9"
+        ]
+    }
+}
