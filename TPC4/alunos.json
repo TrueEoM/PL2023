@@ -1,5 +1,5 @@
-{
-    "entry 0": {
+[
+    {
         "Numero": "100",
         "Nome": "Gerrie",
         "Curso": "MIEI",
@@ -9,7 +9,7 @@
             "12"
         ]
     },
-    "entry 1": {
+    {
         "Numero": "101",
         "Nome": "Calla",
         "Curso": "LCC",
@@ -19,7 +19,7 @@
             "12"
         ]
     },
-    "entry 2": {
+    {
         "Numero": "102",
         "Nome": "Mariann",
         "Curso": "LCC",
@@ -29,7 +29,7 @@
             "7"
         ]
     },
-    "entry 3": {
+    {
         "Numero": "103",
         "Nome": "Celisse",
         "Curso": "MIEI",
@@ -39,7 +39,7 @@
             "14"
         ]
     },
-    "entry 4": {
+    {
         "Numero": "104",
         "Nome": "Edith",
         "Curso": "MIEI",
@@ -49,7 +49,7 @@
             "10"
         ]
     },
-    "entry 5": {
+    {
         "Numero": "105",
         "Nome": "Tina",
         "Curso": "MIEI",
@@ -59,7 +59,7 @@
             "5"
         ]
     },
-    "entry 6": {
+    {
         "Numero": "106",
         "Nome": "Rubie",
         "Curso": "MIEI",
@@ -69,7 +69,7 @@
             "10"
         ]
     },
-    "entry 7": {
+    {
         "Numero": "107",
         "Nome": "Fina",
         "Curso": "LEI",
@@ -79,7 +79,7 @@
             "13"
         ]
     },
-    "entry 8": {
+    {
         "Numero": "108",
         "Nome": "Konstance",
         "Curso": "LCC",
@@ -89,7 +89,7 @@
             "10"
         ]
     },
-    "entry 9": {
+    {
         "Numero": "109",
         "Nome": "Mathilda",
         "Curso": "LCC",
@@ -99,7 +99,7 @@
             "11"
         ]
     },
-    "entry 10": {
+    {
         "Numero": "110",
         "Nome": "Elora",
         "Curso": "MIEI",
@@ -109,7 +109,7 @@
             "6"
         ]
     },
-    "entry 11": {
+    {
         "Numero": "111",
         "Nome": "Joelly",
         "Curso": "LCC",
@@ -119,7 +119,7 @@
             "13"
         ]
     },
-    "entry 12": {
+    {
         "Numero": "112",
         "Nome": "Cissiee",
         "Curso": "LCC",
@@ -129,7 +129,7 @@
             "15"
         ]
     },
-    "entry 13": {
+    {
         "Numero": "113",
         "Nome": "Kristina",
         "Curso": "LEI",
@@ -139,7 +139,7 @@
             "11"
         ]
     },
-    "entry 14": {
+    {
         "Numero": "114",
         "Nome": "Nikki",
         "Curso": "LCC",
@@ -149,7 +149,7 @@
             "19"
         ]
     },
-    "entry 15": {
+    {
         "Numero": "115",
         "Nome": "Rosabelle",
         "Curso": "LCC",
@@ -159,7 +159,7 @@
             "18"
         ]
     },
-    "entry 16": {
+    {
         "Numero": "116",
         "Nome": "Jacquetta",
         "Curso": "MIEI",
@@ -169,7 +169,7 @@
             "20"
         ]
     },
-    "entry 17": {
+    {
         "Numero": "117",
         "Nome": "Sara-Ann",
         "Curso": "LCC",
@@ -179,7 +179,7 @@
             "1"
         ]
     },
-    "entry 18": {
+    {
         "Numero": "118",
         "Nome": "Ricky",
         "Curso": "LCC",
@@ -189,7 +189,7 @@
             "20"
         ]
     },
-    "entry 19": {
+    {
         "Numero": "119",
         "Nome": "Marcelline",
         "Curso": "LEI",
@@ -199,7 +199,7 @@
             "20"
         ]
     },
-    "entry 20": {
+    {
         "Numero": "120",
         "Nome": "Randa",
         "Curso": "LCC",
@@ -209,7 +209,7 @@
             "2"
         ]
     },
-    "entry 21": {
+    {
         "Numero": "121",
         "Nome": "Queenie",
         "Curso": "LCC",
@@ -219,7 +219,7 @@
             "5"
         ]
     },
-    "entry 22": {
+    {
         "Numero": "122",
         "Nome": "Xylina",
         "Curso": "LEI",
@@ -229,7 +229,7 @@
             "14"
         ]
     },
-    "entry 23": {
+    {
         "Numero": "123",
         "Nome": "Kate",
         "Curso": "LEI",
@@ -239,7 +239,7 @@
             "9"
         ]
     },
-    "entry 24": {
+    {
         "Numero": "124",
         "Nome": "Talya",
         "Curso": "LCC",
@@ -249,7 +249,7 @@
             "4"
         ]
     },
-    "entry 25": {
+    {
         "Numero": "125",
         "Nome": "Ardenia",
         "Curso": "LCC",
@@ -259,7 +259,7 @@
             "18"
         ]
     },
-    "entry 26": {
+    {
         "Numero": "126",
         "Nome": "Helsa",
         "Curso": "MIEI",
@@ -269,7 +269,7 @@
             "20"
         ]
     },
-    "entry 27": {
+    {
         "Numero": "127",
         "Nome": "Carree",
         "Curso": "LEI",
@@ -279,7 +279,7 @@
             "11"
         ]
     },
-    "entry 28": {
+    {
         "Numero": "128",
         "Nome": "Ayn",
         "Curso": "MIEI",
@@ -289,7 +289,7 @@
             "1"
         ]
     },
-    "entry 29": {
+    {
         "Numero": "129",
         "Nome": "Amelia",
         "Curso": "LEI",
@@ -299,7 +299,7 @@
             "1"
         ]
     },
-    "entry 30": {
+    {
         "Numero": "130",
         "Nome": "Constance",
         "Curso": "MIEI",
@@ -309,7 +309,7 @@
             "7"
         ]
     },
-    "entry 31": {
+    {
         "Numero": "131",
         "Nome": "Roz",
         "Curso": "LCC",
@@ -319,7 +319,7 @@
             "7"
         ]
     },
-    "entry 32": {
+    {
         "Numero": "132",
         "Nome": "Diena",
         "Curso": "MIEI",
@@ -329,7 +329,7 @@
             "6"
         ]
     },
-    "entry 33": {
+    {
         "Numero": "133",
         "Nome": "Miquela",
         "Curso": "MIEI",
@@ -339,7 +339,7 @@
             "13"
         ]
     },
-    "entry 34": {
+    {
         "Numero": "134",
         "Nome": "Belinda",
         "Curso": "LEI",
@@ -349,7 +349,7 @@
             "12"
         ]
     },
-    "entry 35": {
+    {
         "Numero": "135",
         "Nome": "Shauna",
         "Curso": "MIEI",
@@ -359,7 +359,7 @@
             "12"
         ]
     },
-    "entry 36": {
+    {
         "Numero": "136",
         "Nome": "Sybille",
         "Curso": "LEI",
@@ -369,7 +369,7 @@
             "5"
         ]
     },
-    "entry 37": {
+    {
         "Numero": "137",
         "Nome": "Althea",
         "Curso": "LCC",
@@ -379,7 +379,7 @@
             "19"
         ]
     },
-    "entry 38": {
+    {
         "Numero": "138",
         "Nome": "Sarette",
         "Curso": "MIEI",
@@ -389,7 +389,7 @@
             "13"
         ]
     },
-    "entry 39": {
+    {
         "Numero": "139",
         "Nome": "Fredericka",
         "Curso": "LCC",
@@ -399,7 +399,7 @@
             "1"
         ]
     },
-    "entry 40": {
+    {
         "Numero": "140",
         "Nome": "Mary",
         "Curso": "LEI",
@@ -409,7 +409,7 @@
             "20"
         ]
     },
-    "entry 41": {
+    {
         "Numero": "141",
         "Nome": "Nollie",
         "Curso": "LCC",
@@ -419,7 +419,7 @@
             "19"
         ]
     },
-    "entry 42": {
+    {
         "Numero": "142",
         "Nome": "Kylynn",
         "Curso": "MIEI",
@@ -429,7 +429,7 @@
             "12"
         ]
     },
-    "entry 43": {
+    {
         "Numero": "143",
         "Nome": "Winifred",
         "Curso": "LCC",
@@ -439,7 +439,7 @@
             "13"
         ]
     },
-    "entry 44": {
+    {
         "Numero": "144",
         "Nome": "Kara-Lynn",
         "Curso": "LEI",
@@ -449,7 +449,7 @@
             "20"
         ]
     },
-    "entry 45": {
+    {
         "Numero": "145",
         "Nome": "Rhoda",
         "Curso": "LEI",
@@ -459,7 +459,7 @@
             "9"
         ]
     },
-    "entry 46": {
+    {
         "Numero": "146",
         "Nome": "Lexine",
         "Curso": "LCC",
@@ -469,7 +469,7 @@
             "15"
         ]
     },
-    "entry 47": {
+    {
         "Numero": "147",
         "Nome": "Ottilie",
         "Curso": "LEI",
@@ -479,7 +479,7 @@
             "19"
         ]
     },
-    "entry 48": {
+    {
         "Numero": "148",
         "Nome": "Eolanda",
         "Curso": "LCC",
@@ -489,7 +489,7 @@
             "7"
         ]
     },
-    "entry 49": {
+    {
         "Numero": "149",
         "Nome": "Ashlee",
         "Curso": "MIEI",
@@ -499,7 +499,7 @@
             "17"
         ]
     },
-    "entry 50": {
+    {
         "Numero": "150",
         "Nome": "Emylee",
         "Curso": "LEI",
@@ -509,7 +509,7 @@
             "13"
         ]
     },
-    "entry 51": {
+    {
         "Numero": "151",
         "Nome": "Hollie",
         "Curso": "MIEI",
@@ -519,7 +519,7 @@
             "9"
         ]
     },
-    "entry 52": {
+    {
         "Numero": "152",
         "Nome": "Merry",
         "Curso": "MIEI",
@@ -529,7 +529,7 @@
             "2"
         ]
     },
-    "entry 53": {
+    {
         "Numero": "153",
         "Nome": "Benita",
         "Curso": "MIEI",
@@ -539,7 +539,7 @@
             "17"
         ]
     },
-    "entry 54": {
+    {
         "Numero": "154",
         "Nome": "Monika",
         "Curso": "MIEI",
@@ -549,7 +549,7 @@
             "11"
         ]
     },
-    "entry 55": {
+    {
         "Numero": "155",
         "Nome": "Dale",
         "Curso": "LCC",
@@ -559,7 +559,7 @@
             "17"
         ]
     },
-    "entry 56": {
+    {
         "Numero": "156",
         "Nome": "Britte",
         "Curso": "LEI",
@@ -569,7 +569,7 @@
             "16"
         ]
     },
-    "entry 57": {
+    {
         "Numero": "157",
         "Nome": "Lusa",
         "Curso": "LEI",
@@ -579,7 +579,7 @@
             "18"
         ]
     },
-    "entry 58": {
+    {
         "Numero": "158",
         "Nome": "Anestassia",
         "Curso": "LCC",
@@ -589,7 +589,7 @@
             "18"
         ]
     },
-    "entry 59": {
+    {
         "Numero": "159",
         "Nome": "Chandra",
         "Curso": "LCC",
@@ -599,7 +599,7 @@
             "14"
         ]
     },
-    "entry 60": {
+    {
         "Numero": "160",
         "Nome": "Inga",
         "Curso": "MIEI",
@@ -609,7 +609,7 @@
             "4"
         ]
     },
-    "entry 61": {
+    {
         "Numero": "161",
         "Nome": "Elka",
         "Curso": "LCC",
@@ -619,7 +619,7 @@
             "8"
         ]
     },
-    "entry 62": {
+    {
         "Numero": "162",
         "Nome": "Cherilyn",
         "Curso": "LEI",
@@ -629,7 +629,7 @@
             "3"
         ]
     },
-    "entry 63": {
+    {
         "Numero": "163",
         "Nome": "Jordan",
         "Curso": "MIEI",
@@ -639,7 +639,7 @@
             "10"
         ]
     },
-    "entry 64": {
+    {
         "Numero": "164",
         "Nome": "Sonni",
         "Curso": "LEI",
@@ -649,7 +649,7 @@
             "2"
         ]
     },
-    "entry 65": {
+    {
         "Numero": "165",
         "Nome": "Libbie",
         "Curso": "MIEI",
@@ -659,7 +659,7 @@
             "2"
         ]
     },
-    "entry 66": {
+    {
         "Numero": "166",
         "Nome": "Carmencita",
         "Curso": "LEI",
@@ -669,7 +669,7 @@
             "6"
         ]
     },
-    "entry 67": {
+    {
         "Numero": "167",
         "Nome": "Viviene",
         "Curso": "LEI",
@@ -679,7 +679,7 @@
             "7"
         ]
     },
-    "entry 68": {
+    {
         "Numero": "168",
         "Nome": "Myriam",
         "Curso": "LEI",
@@ -689,7 +689,7 @@
             "17"
         ]
     },
-    "entry 69": {
+    {
         "Numero": "169",
         "Nome": "Gaylene",
         "Curso": "MIEI",
@@ -699,7 +699,7 @@
             "3"
         ]
     },
-    "entry 70": {
+    {
         "Numero": "170",
         "Nome": "Tarra",
         "Curso": "MIEI",
@@ -709,7 +709,7 @@
             "15"
         ]
     },
-    "entry 71": {
+    {
         "Numero": "171",
         "Nome": "Annabela",
         "Curso": "LCC",
@@ -719,7 +719,7 @@
             "16"
         ]
     },
-    "entry 72": {
+    {
         "Numero": "172",
         "Nome": "Allis",
         "Curso": "LEI",
@@ -729,7 +729,7 @@
             "19"
         ]
     },
-    "entry 73": {
+    {
         "Numero": "173",
         "Nome": "Stevana",
         "Curso": "LCC",
@@ -739,7 +739,7 @@
             "14"
         ]
     },
-    "entry 74": {
+    {
         "Numero": "174",
         "Nome": "Cordi",
         "Curso": "LEI",
@@ -749,7 +749,7 @@
             "14"
         ]
     },
-    "entry 75": {
+    {
         "Numero": "175",
         "Nome": "Clo",
         "Curso": "MIEI",
@@ -759,7 +759,7 @@
             "12"
         ]
     },
-    "entry 76": {
+    {
         "Numero": "176",
         "Nome": "Fidelia",
         "Curso": "LEI",
@@ -769,7 +769,7 @@
             "14"
         ]
     },
-    "entry 77": {
+    {
         "Numero": "177",
         "Nome": "Grier",
         "Curso": "LCC",
@@ -779,7 +779,7 @@
             "19"
         ]
     },
-    "entry 78": {
+    {
         "Numero": "178",
         "Nome": "Jennica",
         "Curso": "LEI",
@@ -789,7 +789,7 @@
             "19"
         ]
     },
-    "entry 79": {
+    {
         "Numero": "179",
         "Nome": "Michaelina",
         "Curso": "MIEI",
@@ -799,7 +799,7 @@
             "1"
         ]
     },
-    "entry 80": {
+    {
         "Numero": "180",
         "Nome": "Cordi",
         "Curso": "MIEI",
@@ -809,7 +809,7 @@
             "8"
         ]
     },
-    "entry 81": {
+    {
         "Numero": "181",
         "Nome": "Veda",
         "Curso": "MIEI",
@@ -819,7 +819,7 @@
             "14"
         ]
     },
-    "entry 82": {
+    {
         "Numero": "182",
         "Nome": "Gabriellia",
         "Curso": "LCC",
@@ -829,7 +829,7 @@
             "13"
         ]
     },
-    "entry 83": {
+    {
         "Numero": "183",
         "Nome": "Hayley",
         "Curso": "LCC",
@@ -839,7 +839,7 @@
             "17"
         ]
     },
-    "entry 84": {
+    {
         "Numero": "184",
         "Nome": "Odessa",
         "Curso": "LCC",
@@ -849,7 +849,7 @@
             "6"
         ]
     },
-    "entry 85": {
+    {
         "Numero": "185",
         "Nome": "Gretal",
         "Curso": "LCC",
@@ -859,7 +859,7 @@
             "16"
         ]
     },
-    "entry 86": {
+    {
         "Numero": "186",
         "Nome": "Elvira",
         "Curso": "LCC",
@@ -869,7 +869,7 @@
             "16"
         ]
     },
-    "entry 87": {
+    {
         "Numero": "187",
         "Nome": "Melanie",
         "Curso": "LEI",
@@ -879,7 +879,7 @@
             "10"
         ]
     },
-    "entry 88": {
+    {
         "Numero": "188",
         "Nome": "Melina",
         "Curso": "MIEI",
@@ -889,7 +889,7 @@
             "10"
         ]
     },
-    "entry 89": {
+    {
         "Numero": "189",
         "Nome": "Lorie",
         "Curso": "LCC",
@@ -899,7 +899,7 @@
             "19"
         ]
     },
-    "entry 90": {
+    {
         "Numero": "190",
         "Nome": "Vevay",
         "Curso": "LEI",
@@ -909,7 +909,7 @@
             "7"
         ]
     },
-    "entry 91": {
+    {
         "Numero": "191",
         "Nome": "Violet",
         "Curso": "LEI",
@@ -919,7 +919,7 @@
             "18"
         ]
     },
-    "entry 92": {
+    {
         "Numero": "192",
         "Nome": "Marnia",
         "Curso": "LCC",
@@ -929,7 +929,7 @@
             "8"
         ]
     },
-    "entry 93": {
+    {
         "Numero": "193",
         "Nome": "Jackie",
         "Curso": "LCC",
@@ -939,7 +939,7 @@
             "14"
         ]
     },
-    "entry 94": {
+    {
         "Numero": "194",
         "Nome": "Deane",
         "Curso": "LCC",
@@ -949,7 +949,7 @@
             "6"
         ]
     },
-    "entry 95": {
+    {
         "Numero": "195",
         "Nome": "Rivalee",
         "Curso": "MIEI",
@@ -959,7 +959,7 @@
             "11"
         ]
     },
-    "entry 96": {
+    {
         "Numero": "196",
         "Nome": "Vevay",
         "Curso": "LCC",
@@ -969,7 +969,7 @@
             "2"
         ]
     },
-    "entry 97": {
+    {
         "Numero": "197",
         "Nome": "Mariann",
         "Curso": "MIEI",
@@ -979,7 +979,7 @@
             "7"
         ]
     },
-    "entry 98": {
+    {
         "Numero": "198",
         "Nome": "Isa",
         "Curso": "MIEI",
@@ -989,7 +989,7 @@
             "8"
         ]
     },
-    "entry 99": {
+    {
         "Numero": "199",
         "Nome": "Hollie",
         "Curso": "LEI",
@@ -999,4 +999,4 @@
             "9"
         ]
     }
-}
+]
