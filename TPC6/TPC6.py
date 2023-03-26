@@ -10,11 +10,12 @@ reserved = {
     'else' : 'ELSE',
     'while' : 'WHILE',
     'for' : 'FOR',
+    'in' : 'IN',
     'function' : 'FUNC',
     'program' : 'PROG',
-    'int' : 'INT',
-    'float' : 'FLOAT',
-    'double' : 'DOUBLE',
+    'int' : 'DATATYPE',
+    'float' : 'DATATYPE',
+    'double' : 'DATATYPE',
     'char' : 'CHAR'
 }
 
@@ -23,20 +24,18 @@ tokens = (
     'LOPEN',
     'RCLOSE',
     'CALL',
-    'FUNCID',
     'NUM',
-    'LETTER',
+    'CHAR',
+    'STRING',
     'COMMENT',
     'IF',
     'ELSE',
     'WHILE',
     'FOR',
+    'IN',
     'FUNC',
     'PROG',
-    'INT',
-    'FLOAT',
-    'DOUBLE',
-    'CHAR',
+    'DATATYPE',
     'CODE'
 )
 
@@ -68,6 +67,10 @@ def t_code(t):
     t.lexer.begin('code')
     return t
 
+def t_code_COMMENT(t):
+    r'(\/\*(.|\n)*?\*\/)|(\/\/.*)'
+    pass
+
 def t_code_LOPEN(t):
     r'\{'
     t.type = 'LOPEN'
@@ -86,12 +89,8 @@ def t_code_RCLOSE(t):
          t.lexer.begin('INITIAL')
          return t
 
-def t_code_COMMENT(t):
-    r'(\/\*(.|\n)*?\*\/)|(\/\/.*)'
-    pass
-
 def t_code_CALL(t):
-    r'(?<=])\(\w+(,\s?[\w_]+)*\)'
+    r'(?<!\w )\w+\(\w+(,\s?[\w_]+)*\)'
     t.type = 'CALL'
     return t
 
@@ -100,14 +99,17 @@ def t_code_ID(t):
     t.type = reserved.get(t.value,'VAR')
     return t
 
-def t_code_string(t):
+def t_code_STRING(t):
    r'\"([^\\\n]|(\\.))*?\"'
+   return t
 
-def t_code_char(t):
+def t_code_CHAR(t):
    r'\'([^\\\n]|(\\.))*?\''
+   return t
 
 def t_code_NUM(t):
    r'\s\d+'
+   return t
 
 def t_code_nonspace(t):
    r'[^\s\{\}\'\"]+'
