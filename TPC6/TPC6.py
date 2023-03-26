@@ -66,7 +66,7 @@ def t_INITIAL_COMMENT(t):
     pass
 
 def t_INITIAL_ASSIGN(t):
-    r'(?:(?<=\w)|(?<=\w ))=(?=\s?.)'
+    r'='
     return t
 
 def t_INITIAL_LPARN(t):
@@ -147,7 +147,7 @@ def t_code_RCLOSE(t):
          return t
 
 def t_code_ASSIGN(t):
-    r'(?:(?<=\w)|(?<=\w ))=(?=\s?.)'
+    r'='
     return t
 
 def t_code_LPARN(t):
@@ -215,8 +215,6 @@ data = '''
 */
 
 int i;
-string c;
-c = "asda";
 
 // Função que calcula o factorial dum número n
 function fact(n){
