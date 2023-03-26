@@ -23,6 +23,8 @@ tokens = (
     'VAR',
     'LOPEN',
     'RCLOSE',
+    'LPARN',
+    'RPARN',
     'CALL',
     'NUM',
     'CHAR',
@@ -36,6 +38,7 @@ tokens = (
     'FUNC',
     'PROG',
     'DATATYPE',
+    'ASSIGN',
     'CODE'
 )
 
@@ -44,15 +47,46 @@ literals = (
     '-',
     '*',
     '/', 
+    '=',
     '{', 
     '}',
-    '(',
-    ')'
 )
+
+def t_INITIAL(t):
+    r'[a-zA-Z_][a-zA-Z_0-9]*'
+    t.lexer.clevel = 0
+    t.lexer.cpos = []
+    t.type = reserved.get(t.value,'VAR')
+    return t
 
 def t_INITIAL_COMMENT(t):
     r'(\/\*(.|\n)*?\*\/)|(\/\/.*)'
     pass
+
+def t_INITIAL_ASSIGN(t):
+    r'(?:(?<=\w)|(?<=\w ))=(?=\s?.)'
+    return t
+
+def t_INITIAL_LPARN(t):
+    r'\('
+    t.type = 'LPARN'
+    t.lexer.clevel += 1
+    t.lexer.cpos.append(t.lexer.lexpos-1)
+
+def t_INITIAL_RPERN(t):
+    r'\)'
+    t.type = 'RPARN'
+    t.lexer.clevel -= 1
+
+    if t.lexer.clevel >= 0:
+        t.value = t.lexer.lexdata[t.lexer.cpos.pop(-1):t.lexer.lexpos]
+        t.type = 'CALL'
+        return t
+
+def t_INITIAL_CALL(t):
+    r'(?<!\w )\w+\(\w+(,\s?[\w_]+)*\)'
+    t.type = 'CALL'
+    return t
 
 def t_INITIAL_ID(t):
     r'[a-zA-Z_][a-zA-Z_0-9]*'
@@ -64,6 +98,8 @@ def t_code(t):
     t.type = 'LOPEN'
     t.lexer.code_start = t.lexer.lexpos
     t.lexer.level = 1
+    t.lexer.clevel = 0
+    t.lexer.cpos = []
     t.lexer.begin('code')
     return t
 
@@ -88,6 +124,26 @@ def t_code_RCLOSE(t):
          t.lexer.lineno += t.value.count('\n')
          t.lexer.begin('INITIAL')
          return t
+
+def t_code_ASSIGN(t):
+    r'(?:(?<=\w)|(?<=\w ))=(?=\s?.)'
+    return t
+
+def t_code_LPARN(t):
+    r'\('
+    t.type = 'LPARN'
+    t.lexer.clevel += 1
+    t.lexer.cpos.append(t.lexer.lexpos-1)
+
+def t_code_RPERN(t):
+    r'\)'
+    t.type = 'RPARN'
+    t.lexer.clevel -= 1
+
+    if t.lexer.clevel >= 0:
+        t.value = t.lexer.lexdata[t.lexer.cpos.pop(-1):t.lexer.lexpos]
+        t.type = 'CALL'
+        return t
 
 def t_code_CALL(t):
     r'(?<!\w )\w+\(\w+(,\s?[\w_]+)*\)'
@@ -115,15 +171,10 @@ def t_code_nonspace(t):
    r'[^\s\{\}\'\"]+'
 
 t_code_ignore = " \t\n"
-t_ignore = " \t\n"
+t_ignore = " \t\n;"
 
 def t_code_error(t):
     t.lexer.skip(1)
-        
-def t_NUM(t):
-    r'\d+'
-    t.value = int(t.value)
-    return t
 
 def t_error(t):
     print("Illegal character '%s'" % t.value[0])
