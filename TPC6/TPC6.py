@@ -16,7 +16,8 @@ reserved = {
     'int' : 'DATATYPE',
     'float' : 'DATATYPE',
     'double' : 'DATATYPE',
-    'char' : 'CHAR'
+    'char' : 'DATATYPE',
+    'string' : 'DATATYPE'
 }
 
 tokens = (
@@ -26,9 +27,10 @@ tokens = (
     'LPARN',
     'RPARN',
     'CALL',
-    'NUM',
     'CHAR',
     'STRING',
+    'INT',
+    'DOUBLE',
     'COMMENT',
     'IF',
     'ELSE',
@@ -92,6 +94,25 @@ def t_INITIAL_ID(t):
     r'[a-zA-Z_][a-zA-Z_0-9]*'
     t.type = reserved.get(t.value,'VAR')
     return t
+
+def t_INITIAL_STRING(t):
+   r'\"([^\\\n]|(\\.))*?\"'
+   return t
+
+def t_INITIAL_CHAR(t):
+   r'\'([^\\\n]|(\\.))*?\''
+   return t
+
+def t_INITIAL_DOUBLE(t):
+   r'\s\d+\.\d+'
+   return t
+
+def t_INITIAL_INT(t):
+   r'\s\d+'
+   return t
+
+def t_INITIAL_nonspace(t):
+   r'[^\s\{\}\'\"]+'
 
 def t_code(t):
     r'\{'
@@ -163,7 +184,11 @@ def t_code_CHAR(t):
    r'\'([^\\\n]|(\\.))*?\''
    return t
 
-def t_code_NUM(t):
+def t_code_DOUBLE(t):
+   r'\s\d+\.\d+'
+   return t
+
+def t_code_INT(t):
    r'\s\d+'
    return t
 
@@ -190,6 +215,8 @@ data = '''
 */
 
 int i;
+string c;
+c = "asda";
 
 // Função que calcula o factorial dum número n
 function fact(n){
