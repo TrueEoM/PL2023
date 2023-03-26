@@ -97,4 +97,4 @@ class PhoneBooth:
                 self.credit = 0
                 self.call_cost = 0
                 self.state = 'on_hook'
-                return
+                return ""
