@@ -70,7 +70,7 @@ def t_INITIAL_ASSIGN(t):
     return t
 
 def t_INITIAL_LPARN(t):
-    r'\('
+    r'(?<!\w )\w+\('
     t.type = 'LPARN'
     t.lexer.clevel += 1
     t.lexer.cpos.append(t.lexer.lexpos-1)
@@ -84,11 +84,6 @@ def t_INITIAL_RPERN(t):
         t.value = t.lexer.lexdata[t.lexer.cpos.pop(-1):t.lexer.lexpos]
         t.type = 'CALL'
         return t
-
-def t_INITIAL_CALL(t):
-    r'(?<!\w )\w+\(\w+(,\s?[\w_]+)*\)'
-    t.type = 'CALL'
-    return t
 
 def t_INITIAL_ID(t):
     r'[a-zA-Z_][a-zA-Z_0-9]*'
@@ -115,7 +110,7 @@ def t_INITIAL_nonspace(t):
    r'[^\s\{\}\'\"]+'
 
 def t_code(t):
-    r'\{'
+    r'(?<!=)(?<!= )\{'
     t.type = 'LOPEN'
     t.lexer.code_start = t.lexer.lexpos
     t.lexer.level = 1
@@ -129,7 +124,7 @@ def t_code_COMMENT(t):
     pass
 
 def t_code_LOPEN(t):
-    r'\{'
+    r'(?<!= )(?<!= )\{'
     t.type = 'LOPEN'
     t.lexer.level += 1
     return t
@@ -151,10 +146,10 @@ def t_code_ASSIGN(t):
     return t
 
 def t_code_LPARN(t):
-    r'\('
+    r'(?<!\w )\w+\('
     t.type = 'LPARN'
     t.lexer.clevel += 1
-    t.lexer.cpos.append(t.lexer.lexpos-1)
+    t.lexer.cpos.append(t.lexer.lexpos-len(t.value))
 
 def t_code_RPERN(t):
     r'\)'
@@ -165,11 +160,6 @@ def t_code_RPERN(t):
         t.value = t.lexer.lexdata[t.lexer.cpos.pop(-1):t.lexer.lexpos]
         t.type = 'CALL'
         return t
-
-def t_code_CALL(t):
-    r'(?<!\w )\w+\(\w+(,\s?[\w_]+)*\)'
-    t.type = 'CALL'
-    return t
 
 def t_code_ID(t):
     r'[a-zA-Z_][a-zA-Z_0-9]*'
@@ -233,8 +223,30 @@ program myFact{
 }
 '''
 
-# Give the lexer some input
+data2 = '''
+/* max.p: calcula o maior inteiro duma lista desordenada
+-- 2023-03-20 
+-- by jcr
+*/
+
+int i = 10, a[10] = {1,2,3,4,5,6,7,8,9,10};
+
+// Programa principal
+program myMax{
+  int max = a[0];
+  for i in [1..9]{
+    if max < a[i] {
+      max = a[i];
+    }
+  }
+  print(max);
+}
+'''
+
 lexer.input(data)
 for tok in lexer:
     print(tok)
-    # print(tok.type, tok.value, tok.lineno, tok.lexpos)
+
+lexer.input(data2)
+for tok in lexer:
+    print(tok)
